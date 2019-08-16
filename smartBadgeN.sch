@@ -12797,7 +12797,7 @@ DIN A3, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
-<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100uF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12920,7 +12920,7 @@ BS &amp; GND connected &gt;&gt; 4-line SPI</text>
 It is released under the "Creative Commons Attribution Share-Alike 4.0" License - https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="284.48" y="7.62" size="1.778" layer="94" align="bottom-right">Desgin by Moritz von Stietencron @ IoT-FabLab | www.iotfablab.eu | info@iotfablab.eu
 c/o BIBA - Bremer Institut für Produktion und Logistik GmbH | Hochschulring 20 | 28359 Bremen | GERMANY</text>
-<text x="378.46" y="7.62" size="1.778" layer="94" align="top-center">Rev A</text>
+<text x="378.46" y="7.62" size="1.778" layer="94" align="top-center">Rev B</text>
 <wire x1="289.56" y1="111.76" x2="289.56" y2="27.94" width="0.1524" layer="97"/>
 <text x="292.1" y="109.22" size="2.54" layer="97">Test Pads</text>
 <text x="266.7" y="246.38" size="1.27" layer="97">I-CHG = 1000 / R-PROG
