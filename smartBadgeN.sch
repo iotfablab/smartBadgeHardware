@@ -12826,7 +12826,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1" library="SamacSys_Parts" deviceset="SRN6045-680M" device=""/>
-<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="SI1304BDL-T1-E3" device="" value="SI1304BDL"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13063,9 +13063,9 @@ GPIO0 determines boot mode</text>
 <attribute name="NAME" x="57.15" y="82.55" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="57.15" y="80.01" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="22.86" y="68.58" smashed="yes">
-<attribute name="NAME" x="24.384" y="68.961" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.384" y="63.881" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="20.32" y="68.58" smashed="yes">
+<attribute name="NAME" x="21.844" y="68.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.844" y="63.881" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="G$1" x="48.26" y="68.58" smashed="yes">
 <attribute name="NAME" x="64.77" y="66.04" size="1.778" layer="95" align="center-left"/>
@@ -13246,8 +13246,8 @@ GPIO0 determines boot mode</text>
 <instance part="GND6" gate="1" x="83.82" y="134.62" smashed="yes">
 <attribute name="VALUE" x="81.28" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="22.86" y="58.42" smashed="yes">
-<attribute name="VALUE" x="20.32" y="55.88" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="20.32" y="58.42" smashed="yes">
+<attribute name="VALUE" x="17.78" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="48.26" y="48.26" smashed="yes">
 <attribute name="VALUE" x="45.72" y="45.72" size="1.778" layer="96"/>
@@ -13310,11 +13310,11 @@ GPIO0 determines boot mode</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="76.2" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="76.2" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
-<junction x="22.86" y="76.2"/>
-<label x="17.78" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="40.64" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
+<junction x="20.32" y="76.2"/>
+<label x="15.24" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -13551,7 +13551,7 @@ GPIO0 determines boot mode</text>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="63.5" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
