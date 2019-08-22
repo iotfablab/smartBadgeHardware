@@ -8,7 +8,7 @@ It is designed to work with
 * a 1 cell 3.7V LiPo battery with 2mm JST plug (e.g. https://www.exp-tech.de/zubehoer/batterien-akkus/lipo-akkus/9365/lipo-akku-750mah-3.7-v-2-mm-jst?c=1191).
 
 # License
-This project is released under the "Creative Commons Attribution Share-Alike 4.0" License - https://creativecommons.org/licenses/by-sa/4.0/
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 # Contact
 This project has been developed as an internal project of the IoT-Fablab (www.iotfablab.eu) at BIBA - Bremer Institut für Produktion und Logistik GmbH at the University of Bremen.
